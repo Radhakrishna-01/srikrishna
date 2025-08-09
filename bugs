@@ -1,6 +1,6 @@
 ---
 - name: Install Nginx
-  hosts: webservers
+  hosts: localhost
   become: yes
   tasks:
     - name: Install Nginx package
